@@ -1,16 +1,16 @@
-#oWgetter
-
+# oWgetter
 Шелл-скрипт на bash, обёртка для wget (скачивает по ссылкам из файла специального формата).
 
 - Требования:  wget
 - Автор: Okto (http://axisful.info)
 
-###Использование:
+### Использование:
 ```sh
 $ ./oWgetter $VERSION $AUTHOR <$LINK>
 ```
 
-###Опции:
+### Опции:
+```
     -d|--output-directory <DIR> [imgs]
         Куда сохранять файловую структуру.
     -e|--extension <EXT> [jpg]
@@ -30,3 +30,4 @@ $ ./oWgetter $VERSION $AUTHOR <$LINK>
         строки в файле со ссылками. Параметр -e|--extension игнорируется.
     -v|--version
         Версия скрипта.
+```
